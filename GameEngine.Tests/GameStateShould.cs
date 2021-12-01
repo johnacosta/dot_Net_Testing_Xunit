@@ -3,6 +3,7 @@ using Xunit.Abstractions;
 
 namespace GameEngine.Tests
 {
+    //Sharing context between tests using IClassFixture<TFixture>
     public class GameStateShould : IClassFixture<GameStateFixture>
     {
         private readonly GameStateFixture _gameStateFixture;

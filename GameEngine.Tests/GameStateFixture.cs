@@ -18,7 +18,8 @@ namespace GameEngine.Tests
         public void Dispose()
         {
             //cleanup
-
+            //Dispose();
         }
+
     }
 }

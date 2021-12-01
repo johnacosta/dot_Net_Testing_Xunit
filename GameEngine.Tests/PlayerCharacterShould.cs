@@ -20,6 +20,7 @@ public class PlayerCharacterShould : IDisposable
     public void Dispose()
     {
         _output.WriteLine($"Disposing PlayerCharacter {_sut.FullName}");
+        PlayerCharacter player = new PlayerCharacter();
 
         //_sut.Dispose();
     }
